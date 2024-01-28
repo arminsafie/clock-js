@@ -22,6 +22,7 @@ body{
 
 .tex-box{
   position: absolute;
+  width: auto;
   color: #eee;
   font-size: 2rem;
   top: 5%;
@@ -32,4 +33,20 @@ body{
 .tex-box:hover{
 
   text-shadow: 1rem 0rem 1rem red;
+}
+.btn-box
+{
+  font-size: 2rem;
+  position:absolute;
+  width: auto;
+  bottom: 13%;
+  left: 45%;
+  padding: .5rem 2rem ;
+  border-radius: 1rem;
+  box-shadow: 0rem 0rem 1.4rem red ;
+  transition: all .4s;
+}
+.btn-box:hover{
+  transform: scale(1.1);
+  box-shadow: 0rem 0rem 2rem red;
 }
