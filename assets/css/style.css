@@ -1,0 +1,35 @@
+body{
+  font-family: 'Dancing Script', cursive; 
+  background-color: #000;
+}
+
+.clock{
+  font-size: 4rem;
+  width: 30rem;
+  text-align: center;
+  border: 2px solid #000;
+  color:#eee;
+  border-radius: 20px;
+  display: block;
+  box-shadow: .5rem .5rem 1rem red;
+  transition: all .4s;
+}
+
+.clock:hover{
+  transform: scale(1.1);
+  box-shadow: .5rem 1rem 1rem red;
+}
+
+.tex-box{
+  position: absolute;
+  color: #eee;
+  font-size: 2rem;
+  top: 5%;
+  left: 2%;
+  text-shadow: .5rem .5rem 1rem red;
+  transition: all .4s;
+}
+.tex-box:hover{
+
+  text-shadow: 1rem 0rem 1rem red;
+}
